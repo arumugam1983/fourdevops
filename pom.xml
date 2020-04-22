@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
@@ -17,6 +18,7 @@
 		<version>1.5.6.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
+
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -37,12 +39,13 @@
 		</snapshotRepository>
 	</distributionManagement>
 
-		<scm>
+	<scm>
 		<connection>scm:git:git@github.com:arumugam1983/fourdevops.git</connection>
 		<developerConnection>scm:git:git@github.com:arumugam1983/fourdevops.git</developerConnection>
-		<url>git@github.com:arumugam1983/devops.git</url>
-			<tag>HEAD</tag>
+		<url>git@github.com:arumugam1983/fourdevops.git</url>
+		<tag>HEAD</tag>
 	</scm>
+
 
 	<dependencies>
 		<dependency>
@@ -64,6 +67,8 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-devtools</artifactId> 
+			<optional>true</optional> </dependency> -->
 	</dependencies>
 
 	<build>
@@ -81,7 +86,11 @@
 					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
+
 		</plugins>
+
+
 	</build>
+
 
 </project>
