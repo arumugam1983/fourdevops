@@ -40,7 +40,7 @@
 		<scm>
 		<connection>scm:git:git@github.com:arumugam1983/fourdevops.git</connection>
 		<developerConnection>scm:git:git@github.com:arumugam1983/fourdevops.git</developerConnection>
-		<url>git@github.com:arumugam1983/devops.git</url>
+		<url>git@github.com:arumugam1983/fourdevops.git</url>
 			<tag>HEAD</tag>
 	</scm>
 
